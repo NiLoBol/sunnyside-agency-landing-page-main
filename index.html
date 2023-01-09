@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-light bg-blue fixed-top  ">
+      <div class="container-fluid container justify-content-start d-flex align-items-center pt-3 px-0 pb-3">
+        <button class="navbar-toggler bg-light mobile m-2" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="w-50">
+          <img class="me-5" src="images/logo.svg" alt="logo">
+        </div>
+
+        <div id="pc" class=" d-flex align-items-center menubar  w-50">
+          <div class="w-5r d-flex align-items-center mx-3"><a class="navbar-brand text-light" href="#">About</a></div>
+          <div class="w-5r d-flex align-items-center mx-3"><a class="navbar-brand text-light" href="#">Services</a>
+          </div>
+          <div class="w-5r d-flex align-items-center mx-3"><a class="navbar-brand text-light" href="#">Projects</a>
+          </div>
+          <div class="w-5r d-flex align-items-center mx-3"><a class="navbar-brand text-light" href="#">Contact</a></div>
+        </div>
+
+
+
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+
+            <button type="button" class="btn-close text-reset mt-2" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-start flex-grow-1 w-50 pe-3">
+              <li class="nav-item">
+                <a class="navbar-brand p-2 bold" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand p-2 bold" href="#">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="navbar-brand p-2 bold" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand p-2 bold" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div>
+      <div>
+        <img class="position-absolute translate-middle arrow-down" src="images/icon-arrow-down.svg" alt="lol">
+        <img class="w-100 pc" src="images/desktop/image-header.jpg" alt="">
+        <img class="w-100 mobile" src="images/mobile/image-header.jpg" alt="">
+        <h1 class="position-absolute text-light text-header translate-middle mobile-center">We are creatives</h1>
+      </div>
+      <div id="pc" class="row nopm ">
+        <div class="col-xl-6 nopm p-5">
+          <div class="p-5">
+            <div class="p-5">
+              <div class="p-5">
+                <h2 class="mb-5">Transform your brand</h2>
+                <p class="mb-5">We are a full-service creative agency specializing in helping brands grow fast.
+                  Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                <a href="#" class="highlight yelow"> Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 nopm">
+          <img class="w-100" src="images/desktop/image-transform.jpg" alt="">
+        </div>
+      </div>
+      <div id="mobile" class="row nopm mobile">
+        <div class="col-xl-6 nopm">
+          <img class="w-100" src="images/desktop/image-transform.jpg" alt="">
+        </div>
+        <div class="col-xl-6 nopm p-5">
+          <h2 class="mb-5">Transform your brand</h2>
+          <p class="mb-5">We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a href="#" class="highlight yelow"> Learn more</a>
+        </div>
+      </div>
+      <div id="pc" class="row nopm">
+        <div class="col-xl-6 nopm">
+          <img class="w-100" src="images/desktop/image-stand-out.jpg" alt="">
+        </div>
+        <div class="col-xl-6 nopm  p-5">
+          <div class="p-5">
+            <div class="p-5">
+              <div class="p-5">
+                <h2 class="mb-5">Stand out to the right audience</h2>
+                <p class="mb-5">Using a collaborative formula of designers, researchers, photographers, videographers,
+                  and copywriters, we’ll
+                  build and extend your brand in digital places.</p>
+                <a href="#" class="highlight Softred"> Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mobile" class="row nopm">
+        <div class="col-xl-6 nopm">
+          <img class="w-100" src="images/desktop/image-stand-out.jpg" alt="">
+        </div>
+        <div class="col-xl-6 nopm  p-5">
+          <h2 class="mb-5">Stand out to the right audience</h2>
+          <p class="mb-5">Using a collaborative formula of designers, researchers, photographers, videographers,
+            and copywriters, we’ll
+            build and extend your brand in digital places.</p>
+          <a href="#" class="highlight Softred"> Learn more</a>
+        </div>
+      </div>
+      <div class="row nopm ">
+        <div id="design" class="col-xl-6 nopm ">
+          <img id="pc" class="w-100" src="images/desktop/image-graphic-design.jpg" alt="">
+          <img id="mobile" class="w-100" src="images/mobile/image-graphic-design.jpg" alt="">
+          <div id="m100" class="position-relative text-Graphic translate-middle w-50">
+            <h2 class="text-center mb-4">Graphic design</h2>
+            <p class="text-center px-4">Great design makes you memorable. We deliver artwork that underscores your brand
+              message and captures
+              potential clients’ attention.</p>
+          </div>
+        </div>
+        <div id="design2" class="col-xl-6 nopm ">
+          <img id="pc" class="w-100" src="images/desktop/image-photography.jpg" alt="">
+          <img id="mobile" class="w-100" src="images/mobile/image-photography.jpg" alt="">
+          <div id="m100" class="position-relative text-Graphic2 translate-middle w-50">
+            <h2 class="text-center mb-4">Photography</h2>
+            <p class="text-center px-4">Increase your credibility by getting the most stunning, high-quality photos that
+              improve your business image.</p>
+          </div>
+        </div>
+      </div>
+      <p class="text-center text-space-1 ">Client testimonials</p>
+      <div class="row m-5">
+        <div class="col-xl-4 nopm">
+          <div class=" d-flex my-5">
+            <img class="mx-auto O-pigture" src="images/image-emily.jpg" alt="">
+          </div>
+          <p class="text-center my-auto text60 mb-5">
+            We put our trust in Sunnyside and they delivered,
+            making sure our needs were met and deadlines were
+            always hit.
+          </p>
+          <h5 class="text-center">
+            Emily R.
+          </h5>
+          <p class="text-center my-auto text60 smallword">
+            Marketing Director
+          </p>
+        </div>
+        <div class="col-xl-4 nopm ">
+          <div class=" d-flex my-5">
+            <img class="mx-auto O-pigture" src="images/image-thomas.jpg" alt="">
+          </div>
+          <p class="text-center my-auto text60 mb-5">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+            enjoyable
+            experience.
+          </p>
+          <h5 class="text-center">
+            Thomas S.
+          </h5>
+          <p class="text-center my-auto text60 smallword">
+            Chief Operating Officer
+          </p>
+
+
+
+        </div>
+        <div class="col-xl-4 nopm mb-5">
+          <div class=" d-flex  my-5">
+            <img class="mx-auto O-pigture" src="images/image-jennie.jpg" alt="">
+          </div>
+          <p class="text-center my-auto text60 mb-5">
+            Incredible end result!
+            Our sales increased over 400% when we worked with Sunnyside.
+            Highly recommended!
+          </p>
+          <h5 class="text-center">
+            Jennie F.
+          </h5>
+          <p class="text-center my-auto text60 smallword">
+            Business Owner
+          </p>
+        </div>
+      </div>
+      <div class="mt-5">
+        <div class="row nopm pt-5">
+          <div class="col-xl-3 col-6 nopm">
+            <img class="w-100" src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+          </div>
+          <div class="col-xl-3 col-6 nopm">
+            <img class="w-100" src="images/desktop/image-gallery-orange.jpg" alt="">
+          </div>
+          <div class="col-xl-3 col-6 nopm">
+            <img class="w-100" src="images/desktop/image-gallery-cone.jpg" alt="">
+          </div>
+          <div class="col-xl-3 col-6 nopm">
+            <img class="w-100" src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nopm h-25 p-5 bg-green">
+      <div  class="text-center">
+        <div id="pc" class="row m30 mb-5 text-center">
+          <div class="col-2">
+          </div>
+          <div class="col-8">
+            <h2 class="CDarkdesaturatedcyan">Sunnyside</h2>
+          </div>
+          <div class="col-2 ">
+          </div>
+        </div>
+        <div id="mobile" class="row text-center">
+          <h2 class="CDarkdesaturatedcyan">Sunnyside</h2>
+        </div>
+
+        <div id="pcrow" class="row m30 mb-5 pc">
+          <p class="col m-5 CDarkdesaturatedcyan">About</p>
+          <p class="col m-5 CDarkdesaturatedcyan">Services</p>
+          <p class="col m-5 CDarkdesaturatedcyan">Projects</p>
+        </div>
+        <div id="mobilerow" class="row my-5">
+          <p class="col-4 CDarkdesaturatedcyan">About</p>
+          <p class="col-4 CDarkdesaturatedcyan">Services</p>
+          <p class="col-4 CDarkdesaturatedcyan">Projects</p>
+        </div>
+        <div class="row m50">
+          <img class="col-3  iconhover" src="images/icon-facebook.svg" alt=""
+            onmouseover="this.src='images/icon-facebook-copy.svg'" onmouseout="this.src='images/icon-facebook.svg'">
+          <img class="col-3 iconhover" src="images/icon-instagram.svg" alt=""
+            onmouseover="this.src='images/icon-instagram-copy.svg'" onmouseout="this.src='images/icon-instagram.svg'">
+          <img class="col-3 iconhover" src="images/icon-twitter.svg" alt=""
+            onmouseover="this.src='images/icon-twitter-copy.svg'" onmouseout="this.src='images/icon-twitter.svg'">
+          <img class="col-3  iconhover" src="images/icon-pinterest.svg" alt=""
+            onmouseover="this.src='images/icon-pinterest-copy.svg'" onmouseout="this.src='images/icon-pinterest.svg'">
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+      </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+      </script>
+</body>
+
+</html>
